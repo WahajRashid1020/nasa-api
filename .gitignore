@@ -1,0 +1,44 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+.env
+.env.*.local
+
+# Vite
+.vite/
+.cache/
+*.log
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Build output
+build/
+out/
+coverage/
+
+# Logs
+logs/
+*.log
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS Files
+Thumbs.db
+
+# Optional: ignore frontend and backend build artifacts
+frontend/dist/
+backend/dist/
+
+# Optional: if you're using TurboRepo or monorepo
+turbo/
